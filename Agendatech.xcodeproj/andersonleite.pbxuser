@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	133CB7F6133550C000729C8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AgendatechAppDelegate.h */;
+		name = "AgendatechAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 0;
+	};
+	133CB7F7133550C000729C8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 10";
+		rLen = 0;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 0;
+	};
+	133CB7F8133550C000729C8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13A574651330FABA00469EFC /* EventoViewController.m */;
+		name = "EventoViewController.m: 37";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 635;
+	};
+	133CB7F9133550C000729C8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13A574641330FABA00469EFC /* EventoViewController.h */;
+		name = "EventoViewController.h: 19";
+		rLen = 1;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	133CB7FA133550C000729C8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AgendatechAppDelegate.m */;
+		name = "AgendatechAppDelegate.m: 96";
+		rLen = 0;
+		rLoc = 3587;
+		rType = 0;
+		vrLen = 1579;
+		vrLoc = 187;
+	};
+	133CB7FC133550C000729C8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 133CB7FD133550C000729C8E /* Sudoku.java */;
+		name = "Sudoku.java: 38";
+		rLen = 262;
+		rLoc = 1142;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 371;
+	};
+	133CB7FD133550C000729C8E /* Sudoku.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = Sudoku.java;
+		path = /Users/andersonleite/Documents/java/workspace/Sudoku/src/org/example/sudoku/Sudoku.java;
+		sourceTree = "<absolute>";
+	};
+	133CB801133550C000729C8E /* PuzzleView.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = PuzzleView.java;
+		path = /Users/andersonleite/Documents/java/workspace/Sudoku/src/org/example/sudoku/PuzzleView.java;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 2431}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1234}";
+		};
+	};
+	135B4BC213797CF2004BA4AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 133CB801133550C000729C8E /* PuzzleView.java */;
+		name = "PuzzleView.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	135B4BC313797CF2004BA4AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 11";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 0;
+	};
+	135B4BC413797CF2004BA4AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AgendatechAppDelegate.m */;
+		name = "AgendatechAppDelegate.m: 46";
+		rLen = 0;
+		rLoc = 1549;
+		rType = 0;
+		vrLen = 1881;
+		vrLoc = 1322;
+	};
+	13A574451330F6E200469EFC /* Agendatech */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Agendatech;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	13A574571330F6E900469EFC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	13A574581330F6E900469EFC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	13A5745B1330F70A00469EFC /* Evento.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 554}}";
+			sepNavSelRange = "{399, 0}";
+			sepNavVisRange = "{0, 408}";
+		};
+	};
+	13A5745C1330F70A00469EFC /* Evento.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 554}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{0, 332}";
+			sepNavWindowFrame = "{{19, 0}, {750, 778}}";
+		};
+	};
+	13A574641330FABA00469EFC /* EventoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 527}}";
+			sepNavSelRange = "{440, 1}";
+			sepNavVisRange = "{0, 441}";
+			sepNavWindowFrame = "{{88, 152}, {750, 558}}";
+		};
+	};
+	13A574651330FABA00469EFC /* EventoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 793}}";
+			sepNavSelRange = "{1064, 0}";
+			sepNavVisRange = "{635, 868}";
+			sepNavWindowFrame = "{{19, 0}, {750, 778}}";
+		};
+	};
+	13A5756D133108EA00469EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13A5745B1330F70A00469EFC /* Evento.h */;
+		name = "Evento.h: 22";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	13A5757E1331097A00469EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13A5745C1330F70A00469EFC /* Evento.m */;
+		name = "Evento.m: 20";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* AgendatechAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 552}}";
+			sepNavSelRange = "{383, 0}";
+			sepNavVisRange = "{0, 600}";
+		};
+	};
+	1D3623250D0F684500981E51 /* AgendatechAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1417}}";
+			sepNavSelRange = "{1549, 0}";
+			sepNavVisRange = "{1322, 1881}";
+			sepNavWindowFrame = "{{111, 0}, {750, 778}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Agendatech */ = {
+		activeExec = 0;
+		executables = (
+			13A574451330F6E200469EFC /* Agendatech */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 552}}";
+			sepNavSelRange = "{174, 0}";
+			sepNavVisRange = "{0, 371}";
+			sepNavWindowFrame = "{{65, 173}, {750, 558}}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 2587}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 760}";
+			sepNavWindowFrame = "{{19, 0}, {750, 778}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 13A574451330F6E200469EFC /* Agendatech */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Agendatech */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Agendatech */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 13A574581330F6E900469EFC /* Code sense */;
+		executables = (
+			13A574451330F6E200469EFC /* Agendatech */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					740,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326728543;
+			PBXWorkspaceStateSaveDate = 326728543;
+		};
+		perUserProjectItems = {
+			133CB7F6133550C000729C8E /* PBXTextBookmark */ = 133CB7F6133550C000729C8E /* PBXTextBookmark */;
+			133CB7F7133550C000729C8E /* PBXTextBookmark */ = 133CB7F7133550C000729C8E /* PBXTextBookmark */;
+			133CB7F8133550C000729C8E /* PBXTextBookmark */ = 133CB7F8133550C000729C8E /* PBXTextBookmark */;
+			133CB7F9133550C000729C8E /* PBXTextBookmark */ = 133CB7F9133550C000729C8E /* PBXTextBookmark */;
+			133CB7FA133550C000729C8E /* PBXTextBookmark */ = 133CB7FA133550C000729C8E /* PBXTextBookmark */;
+			133CB7FC133550C000729C8E /* PBXTextBookmark */ = 133CB7FC133550C000729C8E /* PBXTextBookmark */;
+			135B4BC213797CF2004BA4AA /* PBXTextBookmark */ = 135B4BC213797CF2004BA4AA /* PBXTextBookmark */;
+			135B4BC313797CF2004BA4AA /* PBXTextBookmark */ = 135B4BC313797CF2004BA4AA /* PBXTextBookmark */;
+			135B4BC413797CF2004BA4AA /* PBXTextBookmark */ = 135B4BC413797CF2004BA4AA /* PBXTextBookmark */;
+			13A5756D133108EA00469EFC /* PBXTextBookmark */ = 13A5756D133108EA00469EFC /* PBXTextBookmark */;
+			13A5757E1331097A00469EFC /* PBXTextBookmark */ = 13A5757E1331097A00469EFC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 13A574571330F6E900469EFC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
