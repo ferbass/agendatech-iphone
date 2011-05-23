@@ -10,7 +10,6 @@
 #import "AgendatechAppDelegate.h"
 
 @implementation RootViewController
-@synthesize eventoView;
 
 #pragma mark -
 #pragma mark View lifecycle
