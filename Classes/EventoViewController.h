@@ -12,6 +12,7 @@
 @interface EventoViewController : UIViewController {
 	Evento *evento;
 	IBOutlet UILabel *nome;
+	IBOutlet UILabel *data;
 	IBOutlet UIWebView *descricao;
 }
 

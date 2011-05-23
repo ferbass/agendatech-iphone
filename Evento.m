@@ -10,10 +10,11 @@
 
 
 @implementation Evento
-@synthesize nome,descricao;
-- (id)initWithName:(NSString*)n descricao:(NSString*)desc {
+@synthesize nome,descricao,data;
+- (id)initWithName:(NSString*)n descricao:(NSString*)desc data:(NSString*)d{
 	self.nome = n;
 	self.descricao = desc;
+	self.data = d;
 	return self;
 }
 

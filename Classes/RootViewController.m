@@ -46,8 +46,7 @@
 	
 	for (NSDictionary *_evento in dicEventos)
 	{
-		Evento *evento = [[Evento alloc] initWithName:[[_evento objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[_evento objectForKey:@"evento"] valueForKey:@"descricao"]];	
-		NSLog(@"%@", evento.nome);
+		Evento *evento = [[Evento alloc] initWithName:[[_evento objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[_evento objectForKey:@"evento"] valueForKey:@"descricao"] data:[[_evento objectForKey:@"evento"] valueForKey:@"data"]];	
 		[eventos addObject:evento];
 	}
 	[table reloadData];

@@ -37,6 +37,7 @@
 
 -(void)popularDados{
 	[nome setText:evento.nome];
+	[data setText:evento.data];
 	[descricao loadHTMLString:evento.descricao baseURL:nil];
 }
 
