@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "AgendatechAppDelegate.h"
 #import "ASIHTTPRequest.h"
+
 @interface RootViewController()
 - (void)requestEvents;
 - (void)requestDone:(ASIHTTPRequest *)request;
@@ -37,7 +38,8 @@
 
 - (void)requestDone:(ASIHTTPRequest *)request
 {
-	NSLog(@"EVENTOS %@",[request responseString]);
+	genericJsonParser = [[GenericJsonParser alloc] init];
+	eventos = [genericJsonParser eventosParser:[request responseString]];
 }
 
 - (void)requestWentWrong:(ASIHTTPRequest *)request
