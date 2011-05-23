@@ -26,6 +26,7 @@
 		E1F5DDA6138A8EC9001C25B9 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DD99138A8EC9001C25B9 /* ASIHTTPRequest.m */; };
 		E1F5DDA7138A8EC9001C25B9 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DD9D138A8EC9001C25B9 /* ASIInputStream.m */; };
 		E1F5DDA8138A8EC9001C25B9 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DD9F138A8EC9001C25B9 /* ASINetworkQueue.m */; };
+		E1F5DDAC138A8EEA001C25B9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DDAB138A8EEA001C25B9 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		E1F5DD9E138A8EC9001C25B9 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
 		E1F5DD9F138A8EC9001C25B9 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
 		E1F5DDA0138A8EC9001C25B9 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		E1F5DDAA138A8EEA001C25B9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E1F5DDAB138A8EEA001C25B9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,7 @@
 		E1F5DD7D138A8EAC001C25B9 /* Librarys */ = {
 			isa = PBXGroup;
 			children = (
+				E1F5DDA9138A8EEA001C25B9 /* Reachability */,
 				E1F5DD8B138A8EB6001C25B9 /* asi-http-request */,
 			);
 			name = Librarys;
@@ -182,6 +186,15 @@
 				E1F5DDA0138A8EC9001C25B9 /* ASIProgressDelegate.h */,
 			);
 			name = "asi-http-request";
+			sourceTree = "<group>";
+		};
+		E1F5DDA9138A8EEA001C25B9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5DDAA138A8EEA001C25B9 /* Reachability.h */,
+				E1F5DDAB138A8EEA001C25B9 /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +273,7 @@
 				E1F5DDA6138A8EC9001C25B9 /* ASIHTTPRequest.m in Sources */,
 				E1F5DDA7138A8EC9001C25B9 /* ASIInputStream.m in Sources */,
 				E1F5DDA8138A8EC9001C25B9 /* ASINetworkQueue.m in Sources */,
+				E1F5DDAC138A8EEA001C25B9 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
