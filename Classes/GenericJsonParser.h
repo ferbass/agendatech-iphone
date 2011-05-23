@@ -13,4 +13,5 @@
 
 }
 
+-(NSDictionary*)eventosParser:(NSString*)request;
 @end
