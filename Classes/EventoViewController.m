@@ -63,6 +63,8 @@
 
 
 - (void)dealloc {
+	[nome release];
+	[descricao release];
     [super dealloc];
 }
 
