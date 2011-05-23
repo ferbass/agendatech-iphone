@@ -50,6 +50,7 @@
 		[eventos addObject:evento];
 	}
 	[table reloadData];
+	[loadView removeFromSuperview];
 }
 
 - (void)requestWentWrong:(ASIHTTPRequest *)request

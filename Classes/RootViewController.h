@@ -16,6 +16,7 @@
 	NSMutableArray *eventos;
 	GenericJsonParser *genericJsonParser;
 	IBOutlet UITableView *table;
+	IBOutlet UIView *loadView;
 }
 
 @end
