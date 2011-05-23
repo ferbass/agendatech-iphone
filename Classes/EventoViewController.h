@@ -10,10 +10,11 @@
 
 
 @interface EventoViewController : UIViewController {
+	NSDictionary *dadosDoEvento;
 	IBOutlet UITextView *eventoDescricao;
 	IBOutlet UITextView *eventoNome;
 }
-@property(nonatomic, retain) IBOutlet UITextView *eventoDescricao;
-@property(nonatomic, retain) IBOutlet UITextView *eventoNome;
+
+@property(nonatomic, retain) NSDictionary *dadosDoEvento;
 
 @end
