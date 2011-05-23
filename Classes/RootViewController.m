@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "AgendatechAppDelegate.h"
-
+#import "ASIHTTPRequest.h"
 @implementation RootViewController
 
 #pragma mark -
@@ -21,6 +21,25 @@
 	self.title = @"Agendatech";
 }
 
+- (void)requestEvents{
+	NSURL *url = [NSURL URLWithString:EVENTOS_BASE_URL];
+	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+	[request setDelegate:self];
+	[request setDidFinishSelector:@selector(requestDone:)];
+	[request setDidFailSelector:@selector(requestWentWrong:)];
+}
+
+- (void)requestDone:(ASIHTTPRequest *)request
+{
+	NSString *response = [request responseString];
+}
+
+- (void)requestWentWrong:(ASIHTTPRequest *)request
+{
+	UIAlertView *err = [[UIAlertView alloc] initWithTitle:@"erro" message:[NSString stringWithFormat:@"erro ao carregar eventos %@", [request error]] delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+	[err show];
+	[err release];
+}
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
