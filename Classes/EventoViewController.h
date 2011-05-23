@@ -7,14 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Evento.h"
 
 @interface EventoViewController : UIViewController {
-	NSDictionary *dadosDoEvento;
-	IBOutlet UITextView *eventoDescricao;
-	IBOutlet UITextView *eventoNome;
+	Evento *evento;
+	IBOutlet UILabel *nome;
+	IBOutlet UIWebView *descricao;
 }
 
-@property(nonatomic, retain) NSDictionary *dadosDoEvento;
+@property(nonatomic, retain) Evento *evento;
 
 @end
