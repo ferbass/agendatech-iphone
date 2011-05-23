@@ -49,7 +49,6 @@
 		NSLog(@"%@", evento.nome);
 		[eventos addObject:evento];
 	}
-	
 	[table reloadData];
 }
 
