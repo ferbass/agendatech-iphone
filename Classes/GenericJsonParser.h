@@ -1,14 +1,16 @@
 //
-//  EventosJsonParser.m
+//  GenericJsonParser.h
 //  Agendatech
 //
 //  Created by Fernando Ribeiro on 5/23/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "EventosJsonParser.h"
+#import <Foundation/Foundation.h>
 
 
-@implementation EventosJsonParser
+@interface GenericJsonParser : NSObject {
+
+}
 
 @end
