@@ -12,6 +12,7 @@
 @implementation GenericJsonParser
 
 -(NSDictionary*)eventosParser:(NSString*)request{
+	NSLog(@"parser");
 	NSError *theError = NULL;
 	NSDictionary *eventos = [[NSDictionary dictionaryWithJSONString:request error:&theError] retain];
 	return eventos;
