@@ -12,9 +12,8 @@
 @implementation GenericJsonParser
 
 -(NSDictionary*)eventosParser:(NSString*)request{
-	NSString *response = request;
 	NSError *theError = NULL;
-	NSDictionary *eventos = [NSDictionary dictionaryWithJSONString:response error:&theError];
+	NSDictionary *eventos = [[NSDictionary dictionaryWithJSONString:request error:&theError] retain];
 	return eventos;
 }
 
