@@ -10,10 +10,12 @@
 #import "EventoViewController.h"
 #import "GenericJsonParser.h"
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	EventoViewController *eventoView;
-	NSDictionary *eventos;
+	NSDictionary *dicEventos;
+	NSMutableArray *eventos;
 	GenericJsonParser *genericJsonParser;
+	IBOutlet UITableView *table;
 }
 
 @end
