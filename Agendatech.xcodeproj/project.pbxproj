@@ -18,6 +18,7 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		E191FD6D138B25DE00E0C21B /* topo.png in Resources */ = {isa = PBXBuildFile; fileRef = E191FD6C138B25DE00E0C21B /* topo.png */; };
 		E1F5DDAC138A8EEA001C25B9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DDAB138A8EEA001C25B9 /* Reachability.m */; };
 		E1F5DDAE138A8F0C001C25B9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F5DDAD138A8F0C001C25B9 /* CFNetwork.framework */; };
 		E1F5DDB2138A8F21001C25B9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F5DDB1138A8F21001C25B9 /* MobileCoreServices.framework */; };
@@ -45,7 +46,7 @@
 		13A5745C1330F70A00469EFC /* Evento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Evento.m; path = ../Evento.m; sourceTree = "<group>"; };
 		13A574641330FABA00469EFC /* EventoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventoViewController.h; sourceTree = "<group>"; };
 		13A574651330FABA00469EFC /* EventoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventoViewController.m; sourceTree = "<group>"; };
-		13A574661330FABA00469EFC /* EventoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventoViewController.xib; sourceTree = "<group>"; };
+		13A574661330FABA00469EFC /* EventoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EventoViewController.xib; path = Classes/EventoViewController.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AgendatechAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendatechAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AgendatechAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendatechAppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Agendatech-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Agendatech-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E191FD6C138B25DE00E0C21B /* topo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topo.png; sourceTree = "<group>"; };
 		E1F5DDAA138A8EEA001C25B9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		E1F5DDAB138A8EEA001C25B9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E1F5DDAD138A8F0C001C25B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -128,7 +130,6 @@
 				E1F5DE2C138A9244001C25B9 /* Helpers */,
 				13A574641330FABA00469EFC /* EventoViewController.h */,
 				13A574651330FABA00469EFC /* EventoViewController.m */,
-				13A574661330FABA00469EFC /* EventoViewController.xib */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* AgendatechAppDelegate.h */,
@@ -171,8 +172,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28F335F01007B36200424DE2 /* RootViewController.xib */,
-				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				E191FD9B138B2B5900E0C21B /* xibs */,
+				E191FD6B138B25DE00E0C21B /* imagens */,
 				8D1107310486CEB800E47090 /* Agendatech-Info.plist */,
 			);
 			name = Resources;
@@ -190,6 +191,24 @@
 				E1F5DDB7138A8F35001C25B9 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E191FD6B138B25DE00E0C21B /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				E191FD6C138B25DE00E0C21B /* topo.png */,
+			);
+			path = imagens;
+			sourceTree = "<group>";
+		};
+		E191FD9B138B2B5900E0C21B /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				13A574661330FABA00469EFC /* EventoViewController.xib */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+			);
+			name = xibs;
 			sourceTree = "<group>";
 		};
 		E1F5DD7D138A8EAC001C25B9 /* Librarys */ = {
@@ -353,6 +372,7 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				13A574681330FABA00469EFC /* EventoViewController.xib in Resources */,
+				E191FD6D138B25DE00E0C21B /* topo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
