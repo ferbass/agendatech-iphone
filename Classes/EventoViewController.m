@@ -8,6 +8,11 @@
 
 #import "EventoViewController.h"
 
+@interface EventoViewController()
+-(void)popularDados;
+
+@end
+
 
 @implementation EventoViewController
 @synthesize	evento;
