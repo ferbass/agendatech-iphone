@@ -13,6 +13,4 @@
 	EventoViewController *eventoView;
 }
 
-@property (nonatomic, retain)EventoViewController *eventoView;
-
 @end

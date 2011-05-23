@@ -8,46 +8,16 @@
 
 #import "AgendatechAppDelegate.h"
 #import "RootViewController.h"
-#import "Evento.h"
-#import "JSON.h" 
 
 @implementation AgendatechAppDelegate
 
 @synthesize window;
 @synthesize navigationController;
-@synthesize eventos;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	
-	// Create new SBJSON parser object
-	SBJsonParser *parser = [[SBJsonParser alloc] init];
-	
-	// Prepare URL request to download statuses from Twitter
-	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.agendatech.com.br/mobile/eventos.json"]];
-	
-	// Perform request and get JSON back as a NSData object
-	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-	
-	// Get JSON as a NSString from NSData response
-	NSString *json_string = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
-	
-	// parse the JSON response into an object
-	// Here we're using NSArray since we're parsing an array of JSON status objects
-	NSArray *statuses = [parser objectWithString:json_string error:nil];
-	
-	// Array dos eventos listados na tela
-	self.eventos = [[NSMutableArray alloc] initWithObjects:nil ];
-	
-	// Each element in statuses is a single status
-	// represented as a NSDictionary
-	for (NSDictionary *status in statuses)
-	{
-		Evento *evento = [[Evento alloc] initWithName:[[status objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[status objectForKey:@"evento"] valueForKey:@"descricao"]];		
-		[self.eventos addObject:evento];
-	}
 	
     // Add the navigation controller's view to the window and display.
     [self.window addSubview:navigationController.view];

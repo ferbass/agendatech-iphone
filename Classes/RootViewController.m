@@ -8,7 +8,6 @@
 
 #import "RootViewController.h"
 #import "AgendatechAppDelegate.h"
-#import "Evento.h"
 
 @implementation RootViewController
 @synthesize eventoView;
@@ -65,9 +64,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	AgendatechAppDelegate *appDelegate = (
-										  AgendatechAppDelegate * )[[UIApplication sharedApplication] delegate];
-	return appDelegate.eventos.count;
+	return 1;
 }
 
 
@@ -80,15 +77,8 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-    
-	// Configure the cell.
 	
-	AgendatechAppDelegate *appDelegate = (AgendatechAppDelegate *) [[UIApplication sharedApplication] delegate];
-	
-	Evento *evento = (Evento *)[appDelegate.eventos objectAtIndex:indexPath.row];
-	
-	[cell setText:evento.nome];
-	
+	[[cell textLabel] setText:@"evento"];
     return cell;
 }
 
@@ -137,20 +127,6 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	AgendatechAppDelegate *appDelegate = (AgendatechAppDelegate *) [[UIApplication sharedApplication] delegate];
-	Evento *evento = (Evento *) [appDelegate.eventos objectAtIndex:indexPath.row];
-		
-	if(self.eventoView == nil){
-		EventoViewController *viewController = [[EventoViewController alloc] initWithNibName:@"EventoViewController" bundle:[NSBundle mainBundle]];
-		self.eventoView = viewController;
-		[viewController release];
-	}	
-	
-	[self.navigationController pushViewController:self.eventoView animated:YES];
-
-	self.eventoView.eventoNome.text = [evento nome];
-	self.eventoView.eventoDescricao.text = [evento descricao];
 }
 
 

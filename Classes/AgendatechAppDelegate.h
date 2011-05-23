@@ -12,15 +12,11 @@
     
     UIWindow *window;
     UINavigationController *navigationController;
-	NSMutableArray *eventos;
-
-	NSMutableData *responseData;
 	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (nonatomic, retain) IBOutlet NSMutableArray *eventos;
 
 @end
 
