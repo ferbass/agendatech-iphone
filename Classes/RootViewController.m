@@ -9,6 +9,8 @@
 #import "RootViewController.h"
 #import "AgendatechAppDelegate.h"
 #import "ASIHTTPRequest.h"
+#import "Evento.h"
+
 @interface RootViewController()
 - (void)requestEvents;
 - (void)requestDone:(ASIHTTPRequest *)request;
@@ -37,7 +39,18 @@
 
 - (void)requestDone:(ASIHTTPRequest *)request
 {
-	NSLog(@"EVENTOS %@",[request responseString]);
+	genericJsonParser = [[GenericJsonParser alloc] init];
+	eventos = [[NSMutableArray alloc] init];
+	dicEventos = [genericJsonParser eventosParser:[request responseString]];
+	
+	for (NSDictionary *_evento in dicEventos)
+	{
+		Evento *evento = [[Evento alloc] initWithName:[[_evento objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[_evento objectForKey:@"evento"] valueForKey:@"descricao"]];	
+		NSLog(@"%@", evento.nome);
+		[eventos addObject:evento];
+	}
+	
+	[table reloadData];
 }
 
 - (void)requestWentWrong:(ASIHTTPRequest *)request
@@ -88,7 +101,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return 1;
+	return [eventos count];
 }
 
 
@@ -101,8 +114,9 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	
-	[[cell textLabel] setText:@"evento"];
+	Evento *_evento = [eventos objectAtIndex:indexPath.row];
+	NSLog(@"EVENTO %@", _evento.nome);
+	[[cell textLabel] setText:_evento.nome];
     return cell;
 }
 
