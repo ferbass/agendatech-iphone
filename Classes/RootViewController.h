@@ -11,6 +11,7 @@
 
 @interface RootViewController : UITableViewController {
 	EventoViewController *eventoView;
+	NSDictionary *eventos;
 }
 
 @end
