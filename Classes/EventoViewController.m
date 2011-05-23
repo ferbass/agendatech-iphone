@@ -32,9 +32,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIBarButtonItem *barItem = [[[UIBarButtonItem alloc] initWithTitle:@"voltar" style:UIBarButtonItemStylePlain target:self action:@selector(voltar:)] autorelease];
+	self.navigationItem.leftBarButtonItem = barItem;
 	[self popularDados];
 }
 
+-(void)voltar:(id)sender{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 -(void)popularDados{
 	[nome setText:evento.nome];
 	[data setText:evento.data];
