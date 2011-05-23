@@ -9,6 +9,11 @@
 #import "RootViewController.h"
 #import "AgendatechAppDelegate.h"
 #import "ASIHTTPRequest.h"
+@interface RootViewController()
+- (void)requestEvents;
+- (void)requestDone:(ASIHTTPRequest *)request;
+- (void)requestWentWrong:(ASIHTTPRequest *)request;
+@end
 @implementation RootViewController
 
 #pragma mark -
@@ -17,8 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 	self.title = @"Agendatech";
+	[self requestEvents];
 }
 
 - (void)requestEvents{
@@ -31,7 +36,7 @@
 
 - (void)requestDone:(ASIHTTPRequest *)request
 {
-	NSString *response = [request responseString];
+	NSLog(@"%@",[request responseString]);
 }
 
 - (void)requestWentWrong:(ASIHTTPRequest *)request
