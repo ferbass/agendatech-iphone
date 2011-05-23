@@ -32,11 +32,12 @@
 	[request setDelegate:self];
 	[request setDidFinishSelector:@selector(requestDone:)];
 	[request setDidFailSelector:@selector(requestWentWrong:)];
+	[request startAsynchronous];
 }
 
 - (void)requestDone:(ASIHTTPRequest *)request
 {
-	NSLog(@"%@",[request responseString]);
+	NSLog(@"EVENTOS %@",[request responseString]);
 }
 
 - (void)requestWentWrong:(ASIHTTPRequest *)request
