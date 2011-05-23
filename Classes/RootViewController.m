@@ -114,6 +114,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 	Evento *_evento = [eventos objectAtIndex:indexPath.row];
 	NSLog(@"EVENTO %@", _evento.nome);
