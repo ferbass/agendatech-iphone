@@ -1,262 +1,0 @@
-TAgendatech
-v7
-r0
-t321976041.176528
-cCheck dependencies
-cProcessInfoPlistFile /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Info.plist Agendatech-Info.plist
-cCompileXIB /Users/andersonleite/Documents/iPhone/Agendatech/MainWindow.xib
-cCompileXIB /Users/andersonleite/Documents/iPhone/Agendatech/RootViewController.xib
-cProcessPCH /var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch.gch Agendatech_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/main.o /Users/andersonleite/Documents/iPhone/Agendatech/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/AgendatechAppDelegate.o /Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/RootViewController.o /Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech normal i386
-cGenerateDSYMFile /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app.dSYM /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech
-cTouch /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/Agendatech_Prefix.pch
-c000000004D80BF620000000000000146
-t1300283234
-s326
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.h
-c000000004D80BF6200000000000001DD
-t1300283234
-s477
-i<UIKit/UIKit.h>
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m
-c000000004D80BF620000000000000AB4
-t1300283234
-s2740
-i"AgendatechAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.h
-c000000004D80BF6200000000000000EF
-t1300283234
-s239
-i<UIKit/UIKit.h>
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m
-c000000004D80BF6200000000000010C7
-t1300283234
-s4295
-i"RootViewController.h"
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/MainWindow.xib
-c000000004D80BF620000000000006000
-t1300283234
-s24576
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/RootViewController.xib
-c000000004D80BF620000000000004455
-t1300283234
-s17493
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/Agendatech.LinkFileList
-c000000004D80BF6700000000000001BD
-t1300283239
-s445
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/AgendatechAppDelegate.o
-t1300283241
-s52784
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/RootViewController.o
-t1300283241
-s41180
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/main.o
-t1300283241
-s6324
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app
-t1300283241
-s238
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app.dSYM
-t1300283241
-s102
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech
-t1300283241
-s18168
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Info.plist
-t1300283239
-s603
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/MainWindow.nib
-t1300283239
-s1512
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/PkgInfo
-t1300283239
-s8
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/RootViewController.nib
-t1300283239
-s979
-
-N/Users/andersonleite/Documents/iPhone/Agendatech/main.m
-c000000004D80BF62000000000000016D
-t1300283234
-s365
-i<UIKit/UIKit.h>
-
-N/var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch.gch
-t1300283240
-s15453392
-
-NAgendatech-Info.plist
-c000000004D80BF62000000000000038D
-t1300283234
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321976039#321976039#0(0"0(0#1#0"8645681248#0"0#
-
-CCompileC build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/AgendatechAppDelegate.o /Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321976040.939631
-e321976041.090402
-r1
-xCompileC
-xbuild/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/AgendatechAppDelegate.o
-x/Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m321976040#321976041#0(0"0(0#0#80"/Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m8650644288#2126"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-generated-files.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-own-target-headers.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-all-target-headers.hmap -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-project-headers.hmap -F/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/include -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources/i386 -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources -include /var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch -c /Users/andersonleite/Documents/iPhone/Agendatech/Classes/AgendatechAppDelegate.m -o /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/AgendatechAppDelegate.o0#
-
-CCompileC build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/RootViewController.o /Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321976041.038782
-e321976041.127700
-r1
-xCompileC
-xbuild/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/RootViewController.o
-x/Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m321976041#321976041#0(0"0(0#0#77"/Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m8647044224#2120"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-generated-files.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-own-target-headers.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-all-target-headers.hmap -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-project-headers.hmap -F/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/include -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources/i386 -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources -include /var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch -c /Users/andersonleite/Documents/iPhone/Agendatech/Classes/RootViewController.m -o /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/main.o /Users/andersonleite/Documents/iPhone/Agendatech/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321976040.938037
-e321976041.038510
-r1
-xCompileC
-xbuild/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/main.o
-x/Users/andersonleite/Documents/iPhone/Agendatech/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/andersonleite/Documents/iPhone/Agendatech/main.m321976040#321976041#0(0"0(0#0#55"/Users/andersonleite/Documents/iPhone/Agendatech/main.m8651966240#2084"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-generated-files.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-own-target-headers.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-all-target-headers.hmap -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-project-headers.hmap -F/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/include -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources/i386 -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources -include /var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch -c /Users/andersonleite/Documents/iPhone/Agendatech/main.m -o /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/andersonleite/Documents/iPhone/Agendatech/MainWindow.xib
-s321976039.493445
-e321976039.996900
-r1
-xCompileXIB
-x/Users/andersonleite/Documents/iPhone/Agendatech/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib321976039#321976039#0(0"0(0#0#63"/Users/andersonleite/Documents/iPhone/Agendatech/MainWindow.xib8646093152#603"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/MainWindow.nib /Users/andersonleite/Documents/iPhone/Agendatech/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/andersonleite/Documents/iPhone/Agendatech/RootViewController.xib
-s321976039.494593
-e321976040.008852
-r1
-xCompileXIB
-x/Users/andersonleite/Documents/iPhone/Agendatech/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib321976039#321976040#0(0"0(0#0#71"/Users/andersonleite/Documents/iPhone/Agendatech/RootViewController.xib8645851232#619"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/RootViewController.nib /Users/andersonleite/Documents/iPhone/Agendatech/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app.dSYM /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech
-s321976041.154504
-e321976041.172348
-r1
-xGenerateDSYMFile
-x/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app.dSYM
-x/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Agendatech.app.dSYM build/Debug-iphonesimulator/Agendatech.app/Agendatech321976041#321976041#0(0"0(0#0#102"/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech8651302880#422"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech -o /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app.dSYM0#
-
-CLd /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech normal i386
-s321976041.127803
-e321976041.154385
-r1
-xLd
-x/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech
-xnormal
-xi386
-lSLF07#2@107"Link /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech321976041#321976041#0(0"0(0#0#0"8642957056#965"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator -F/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator -filelist /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Objects-normal/i386/Agendatech.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Agendatech0#
-
-CProcessInfoPlistFile /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Info.plist Agendatech-Info.plist
-s321976039.468337
-e321976039.493341
-r1
-xProcessInfoPlistFile
-x/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Info.plist
-xAgendatech-Info.plist
-lSLF07#2@29"Process Agendatech-Info.plist321976039#321976039#0(0"0(0#0#70"/Users/andersonleite/Documents/iPhone/Agendatech/Agendatech-Info.plist8593728800#518"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Agendatech-Info.plist -genpkginfo /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app/Info.plist0#
-
-CProcessPCH /var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch.gch Agendatech_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s321976040.008984
-e321976040.937928
-r1
-xProcessPCH
-x/var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch.gch
-xAgendatech_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile Agendatech_Prefix.pch321976040#321976040#0(0"0(0#0#70"/Users/andersonleite/Documents/iPhone/Agendatech/Agendatech_Prefix.pch8650922848#1963"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-generated-files.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-own-target-headers.hmap -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-all-target-headers.hmap -iquote /Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/Agendatech-project-headers.hmap -F/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/include -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources/i386 -I/Users/andersonleite/Documents/iPhone/Agendatech/build/Agendatech.build/Debug-iphonesimulator/Agendatech.build/DerivedSources -c /Users/andersonleite/Documents/iPhone/Agendatech/Agendatech_Prefix.pch -o /var/folders/T0/T0F-0B+aHYy1BZM49m68IU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Agendatech_Prefix-dqucmmahccqdbmgjbhbugscdwgbc/Agendatech_Prefix.pch.gch0#
-
-CTouch /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app
-s321976041.172654
-e321976041.176474
-r1
-xTouch
-x/Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app
-lSLF07#2@97"Touch /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app321976041#321976041#0(0"0(0#0#0"8650979616#301"    cd /Users/andersonleite/Documents/iPhone/Agendatech    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/andersonleite/Documents/iPhone/Agendatech/build/Debug-iphonesimulator/Agendatech.app0#
-
