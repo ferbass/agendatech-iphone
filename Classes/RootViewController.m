@@ -25,7 +25,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.title = @"Agendatech";
 	[self requestEvents];
 }
 
