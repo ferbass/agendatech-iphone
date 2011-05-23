@@ -10,6 +10,7 @@
 #import "AgendatechAppDelegate.h"
 #import "ASIHTTPRequest.h"
 #import "Evento.h"
+#import "EventoViewController.h"
 
 @interface RootViewController()
 - (void)requestEvents;
@@ -165,6 +166,9 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	EventoViewController *evento = [[[EventoViewController alloc] init] autorelease];
+	evento.evento = [eventos objectAtIndex:indexPath.row];
+	[self.navigationController pushViewController:evento animated:YES];
 }
 
 
