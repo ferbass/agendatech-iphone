@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "EventoViewController.h"
-#import "GenericJsonParser.h"
-
-@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+#import "EventosJsonParser.h"
+#import "GruposJsonParser.h"
+@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITabBarDelegate> {
 	EventoViewController *eventoView;
-	NSDictionary *dicEventos;
-	NSMutableArray *eventos;
-	GenericJsonParser *genericJsonParser;
+	NSDictionary *requestDictionary;
+	NSArray *items;
+	EventosJsonParser *eventosParser;
+    GruposJsonParser *gruposParser;
 	IBOutlet UITableView *table;
 	IBOutlet UIView *loadView;
+    int menuItem;
 }
 
 @end

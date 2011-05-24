@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<string>IBProxyObject</string>
 			<string>IBUITabBarItem</string>
+			<string>IBProxyObject</string>
 			<string>IBUILabel</string>
 			<string>IBUIActivityIndicatorView</string>
 			<string>IBUITabBar</string>
@@ -53,7 +53,7 @@
 						<reference key="NSSuperview" ref="907479916"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="741801045"/>
-						<object class="NSColor" key="IBUIBackgroundColor" id="555155666">
+						<object class="NSColor" key="IBUIBackgroundColor" id="1046979339">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -94,7 +94,7 @@
 								<string key="NSFrame">{{34, 78}, {93, 21}}</string>
 								<reference key="NSSuperview" ref="741801045"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="23872933"/>
+								<reference key="NSNextKeyView" ref="382282828"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
@@ -108,12 +108,12 @@
 										<int key="NSID">1</int>
 									</object>
 								</object>
-								<reference key="IBUIHighlightedColor" ref="555155666"/>
+								<reference key="IBUIHighlightedColor" ref="1046979339"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumFontSize">10</float>
 							</object>
 						</object>
-						<string key="NSFrame">{{80, 148}, {160, 119}}</string>
+						<string key="NSFrame">{{80, 149}, {160, 119}}</string>
 						<reference key="NSSuperview" ref="907479916"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="733831427"/>
@@ -123,7 +123,7 @@
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
-					<object class="IBUITabBar" id="23872933">
+					<object class="IBUITabBar" id="382282828">
 						<reference key="NSNextResponder" ref="907479916"/>
 						<int key="NSvFlags">266</int>
 						<string key="NSFrame">{{0, 367}, {320, 49}}</string>
@@ -137,16 +137,16 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSMutableArray" key="IBUIItems">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBUITabBarItem" id="23603215">
+							<object class="IBUITabBarItem" id="913277495">
 								<string key="IBUITitle">Eventos</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUITabBar" ref="23872933"/>
+								<reference key="IBUITabBar" ref="382282828"/>
 							</object>
-							<object class="IBUITabBarItem" id="434430309">
+							<object class="IBUITabBarItem" id="928387820">
 								<int key="IBUITag">1</int>
 								<string key="IBUITitle">Grupos</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUITabBar" ref="23872933"/>
+								<reference key="IBUITabBar" ref="382282828"/>
 							</object>
 						</object>
 					</object>
@@ -216,7 +216,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="23872933"/>
+						<reference key="source" ref="382282828"/>
 						<reference key="destination" ref="841351856"/>
 					</object>
 					<int key="connectionID">17</int>
@@ -249,7 +249,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="741801045"/>
 							<reference ref="709618507"/>
-							<reference ref="23872933"/>
+							<reference ref="382282828"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -257,6 +257,26 @@
 						<int key="objectID">2</int>
 						<reference key="object" ref="709618507"/>
 						<reference key="parent" ref="907479916"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">13</int>
+						<reference key="object" ref="382282828"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="928387820"/>
+							<reference ref="913277495"/>
+						</object>
+						<reference key="parent" ref="907479916"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">15</int>
+						<reference key="object" ref="928387820"/>
+						<reference key="parent" ref="382282828"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">14</int>
+						<reference key="object" ref="913277495"/>
+						<reference key="parent" ref="382282828"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
@@ -269,34 +289,14 @@
 						<reference key="parent" ref="907479916"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">9</int>
-						<reference key="object" ref="733831427"/>
-						<reference key="parent" ref="741801045"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
 						<reference key="object" ref="27604207"/>
 						<reference key="parent" ref="741801045"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">13</int>
-						<reference key="object" ref="23872933"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="434430309"/>
-							<reference ref="23603215"/>
-						</object>
-						<reference key="parent" ref="907479916"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">15</int>
-						<reference key="object" ref="434430309"/>
-						<reference key="parent" ref="23872933"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">14</int>
-						<reference key="object" ref="23603215"/>
-						<reference key="parent" ref="23872933"/>
+						<int key="objectID">9</int>
+						<reference key="object" ref="733831427"/>
+						<reference key="parent" ref="741801045"/>
 					</object>
 				</object>
 			</object>

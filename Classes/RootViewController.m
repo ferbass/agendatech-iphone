@@ -10,14 +10,17 @@
 #import "AgendatechAppDelegate.h"
 #import "ASIHTTPRequest.h"
 #import "Evento.h"
+#import "Grupo.h"
 #import "EventoViewController.h"
 
 @interface RootViewController()
-- (void)requestEvents;
+- (void)request:(NSString*)url;
 - (void)requestDone:(ASIHTTPRequest *)request;
 - (void)requestWentWrong:(ASIHTTPRequest *)request;
+- (void)loadItems;
 @end
 @implementation RootViewController
+
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -25,12 +28,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[self requestEvents];
+	[self request:EVENTOS_BASE_URL];
 }
 
-- (void)requestEvents{
-	NSURL *url = [NSURL URLWithString:EVENTOS_BASE_URL];
-	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+- (void)request:(NSString*)url{
+	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
 	[request setDelegate:self];
 	[request setDidFinishSelector:@selector(requestDone:)];
 	[request setDidFailSelector:@selector(requestWentWrong:)];
@@ -39,15 +41,23 @@
 
 - (void)requestDone:(ASIHTTPRequest *)request
 {
-	genericJsonParser = [[GenericJsonParser alloc] init];
-	eventos = [[NSMutableArray alloc] init];
-	dicEventos = [genericJsonParser eventosParser:[request responseString]];
-	
-	for (NSDictionary *_evento in dicEventos)
-	{
-		Evento *evento = [[Evento alloc] initWithName:[[_evento objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[_evento objectForKey:@"evento"] valueForKey:@"descricao"] data:[[_evento objectForKey:@"evento"] valueForKey:@"data"]];	
-		[eventos addObject:evento];
-	}
+    switch (menuItem) {
+        case 0:
+            eventosParser = [[EventosJsonParser alloc] init];
+            items = [eventosParser eventosParser:[request responseString]];
+            break;
+        case 1:
+            gruposParser = [[GruposJsonParser alloc] init];
+            items = [gruposParser gruposParser:[request responseString]];
+            break;
+        default:
+            break;
+    }
+
+    [self loadItems];
+}
+
+- (void)loadItems{
 	[table reloadData];
 	[loadView removeFromSuperview];
 }
@@ -100,7 +110,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return [eventos count];
+	return [items count];
 }
 
 
@@ -114,9 +124,23 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
-	Evento *_evento = [eventos objectAtIndex:indexPath.row];
-	NSLog(@"EVENTO %@", _evento.nome);
-	[[cell textLabel] setText:_evento.nome];
+    switch (menuItem) {
+        case 0:
+        {
+            Evento *_evento = [items objectAtIndex:indexPath.row];
+            [[cell textLabel] setText:_evento.nome];
+        }
+            break;
+        case 1:
+        {
+            Grupo *_grupo = [items objectAtIndex:indexPath.row];
+            [[cell textLabel] setText:_grupo.nome];
+        }
+            break;
+        default:
+            break;
+    }
+	
     return cell;
 }
 
@@ -165,11 +189,43 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	EventoViewController *evento = [[[EventoViewController alloc] init] autorelease];
-	evento.evento = [eventos objectAtIndex:indexPath.row];
-	[self.navigationController pushViewController:evento animated:YES];
+    switch (menuItem) {
+        case 0:
+        {
+        EventoViewController *evento = [[[EventoViewController alloc] init] autorelease];
+        evento.evento = [items objectAtIndex:indexPath.row];
+        [self.navigationController pushViewController:evento animated:YES];
+        }
+            break;
+        case 1:
+        {
+        NSLog(@"TODO - Criar View de Grupos");
+        }
+        default:
+            break;
+    }
+
 }
 
+#pragma mark - 
+#pragma mark Tab bar delegate
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
+    switch (item.tag) {
+        case 0:
+            menuItem = 0;
+            [self.view addSubview:loadView];
+            [self request:EVENTOS_BASE_URL];
+            break;
+        case 1:
+            menuItem = 1;
+            [self.view addSubview:loadView];
+            [self request:URL_PARA_GRUPOS];
+            break;
+        default:
+            break;
+    }
+}
 
 #pragma mark -
 #pragma mark Memory management
@@ -189,9 +245,10 @@
 
 - (void)dealloc {
 	[eventoView release];
-	[dicEventos release];
-	[eventos release];
-	[genericJsonParser release];
+    [gruposParser release];
+    [eventosParser release];
+	[requestDictionary release];
+	[items release];
     [super dealloc];
 }
 
