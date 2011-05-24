@@ -10,7 +10,15 @@
 
 
 @interface Grupo : NSObject {
-    
+    NSString *nome;
+	NSString *site;
+	NSString *logo;
 }
+
+@property(nonatomic, retain) NSString *nome;
+@property(nonatomic, retain) NSString *site;
+@property(nonatomic, retain) NSString *logo;
+
+- (id)initWithName:(NSString*)n site:(NSString*)s logo:(NSString*)l;
 
 @end

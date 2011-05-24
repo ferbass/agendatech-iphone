@@ -13,4 +13,6 @@
     
 }
 
+-(NSArray*)eventosParser:(NSString*)request;
+
 @end

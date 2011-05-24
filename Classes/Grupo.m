@@ -8,7 +8,15 @@
 
 #import "Grupo.h"
 
-
 @implementation Grupo
+
+@synthesize nome,site,logo;
+
+- (id)initWithName:(NSString*)n site:(NSString*)s logo:(NSString*)l{
+	self.nome = n;
+	self.site = s;
+	self.logo = l;
+	return self;
+}
 
 @end
