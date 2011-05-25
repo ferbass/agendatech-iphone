@@ -10,11 +10,12 @@
 
 
 @implementation Evento
-@synthesize nome,descricao,data;
-- (id)initWithName:(NSString*)n descricao:(NSString*)desc data:(NSString*)d{
+@synthesize nome,descricao,data, euVou;
+- (id)initWithName:(NSString*)n descricao:(NSString*)desc data:(NSString*)d euVou:(NSMutableArray*)eu_vou{
 	self.nome = n;
 	self.descricao = desc;
 	self.data = d;
+    self.euVou = eu_vou;
 	return self;
 }
 
