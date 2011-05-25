@@ -10,7 +10,7 @@
 
 @interface EventoViewController()
 -(void)popularDados;
-
+-(void)popularScrollView;
 @end
 
 
@@ -40,10 +40,22 @@
 -(void)voltar:(id)sender{
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
+
 -(void)popularDados{
 	[nome setText:evento.nome];
 	[data setText:evento.data];
 	[descricao loadHTMLString:evento.descricao baseURL:nil];
+    [self popularScrollView];
+}
+
+-(void)popularScrollView{
+    for (int i = 0; i < [evento.euVou count]; i++){
+        UIImageView* imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"user.png"]];
+        imageView.frame = CGRectMake(i*44, 0, 44, 44);
+        [scroll addSubview:imageView];
+        [imageView release];
+    }
+    scroll.contentSize = CGSizeMake(44 * [evento.euVou count],44);
 }
 
 /*
@@ -62,6 +74,8 @@
 }
 
 - (void)viewDidUnload {
+    [scroll release];
+    scroll = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -71,6 +85,7 @@
 - (void)dealloc {
 	[nome release];
 	[descricao release];
+    [scroll release];
     [super dealloc];
 }
 

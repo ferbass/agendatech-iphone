@@ -18,6 +18,7 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		E126DC36138D6C1300C2D7B3 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = E126DC35138D6C1300C2D7B3 /* user.png */; };
 		E1454700138B351C007D1AB3 /* EventosJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E14546FF138B351C007D1AB3 /* EventosJsonParser.m */; };
 		E1454704138B37E5007D1AB3 /* GruposJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1454703138B37E5007D1AB3 /* GruposJsonParser.m */; };
 		E1454707138B38F4007D1AB3 /* Grupo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1454706138B38F4007D1AB3 /* Grupo.m */; };
@@ -63,6 +64,7 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Agendatech-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Agendatech-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E126DC35138D6C1300C2D7B3 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		E14546FE138B351C007D1AB3 /* EventosJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventosJsonParser.h; sourceTree = "<group>"; };
 		E14546FF138B351C007D1AB3 /* EventosJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventosJsonParser.m; sourceTree = "<group>"; };
 		E1454702138B37E5007D1AB3 /* GruposJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GruposJsonParser.h; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		E191FD6B138B25DE00E0C21B /* imagens */ = {
 			isa = PBXGroup;
 			children = (
+				E126DC35138D6C1300C2D7B3 /* user.png */,
 				E191FD6C138B25DE00E0C21B /* topo.png */,
 			);
 			path = imagens;
@@ -388,6 +391,7 @@
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				13A574681330FABA00469EFC /* EventoViewController.xib in Resources */,
 				E191FD6D138B25DE00E0C21B /* topo.png in Resources */,
+				E126DC36138D6C1300C2D7B3 /* user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

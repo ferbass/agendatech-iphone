@@ -18,7 +18,7 @@
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (NSDictionary *_evento in dic)
         {
-		Evento *evento = [[Evento alloc] initWithName:[[_evento objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[_evento objectForKey:@"evento"] valueForKey:@"descricao"] data:[[_evento objectForKey:@"evento"] valueForKey:@"data"]];
+		Evento *evento = [[Evento alloc] initWithName:[[_evento objectForKey:@"evento"] valueForKey:@"nome"] descricao:[[_evento objectForKey:@"evento"] valueForKey:@"descricao"] data:[[_evento objectForKey:@"evento"] valueForKey:@"data"] euVou:[[_evento objectForKey:@"evento"] valueForKey:@"gadgets"]];
 		[arr addObject:evento];
         }
 	return arr;
