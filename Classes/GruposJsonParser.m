@@ -21,6 +21,7 @@
 		Grupo *grupo = [[Grupo alloc] initWithName:[[_grupo objectForKey:@"grupo"] valueForKey:@"nome"] site:[[_grupo objectForKey:@"grupo"] valueForKey:@"site"] logo:[[_grupo objectForKey:@"grupo"] valueForKey:@"logo"]];
 		[arr addObject:grupo];
         }
+    [dic release];
 	return arr;
 }
 
