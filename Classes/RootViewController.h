@@ -12,7 +12,6 @@
 #import "GruposJsonParser.h"
 @interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITabBarDelegate> {
 	EventoViewController *eventoView;
-	NSDictionary *requestDictionary;
 	NSArray *items;
 	EventosJsonParser *eventosParser;
     GruposJsonParser *gruposParser;

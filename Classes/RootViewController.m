@@ -247,7 +247,6 @@
 	[eventoView release];
     [gruposParser release];
     [eventosParser release];
-	[requestDictionary release];
 	[items release];
     [super dealloc];
 }
