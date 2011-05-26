@@ -14,14 +14,16 @@
 	NSString *nome;
 	NSString *descricao;
 	NSString *data;
+    NSString *logo;
     NSMutableArray *euVou;
 }
 
 @property(nonatomic, retain) NSString *nome;
 @property(nonatomic, retain) NSString *descricao;
 @property(nonatomic, retain) NSString *data;
+@property(nonatomic, retain) NSString *logo;
 @property(nonatomic, retain) NSMutableArray *euVou;
-- (id)initWithName:(NSString*)n descricao:(NSString*)desc data:(NSString*)d euVou:(NSMutableArray*)eu_vou;
+- (id)initWithName:(NSString*)n descricao:(NSString*)desc data:(NSString*)d logo:(NSString *)logo_evento euVou:(NSMutableArray*)eu_vou;
 
 
 @end
