@@ -33,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIBarButtonItem *barItem = [[[UIBarButtonItem alloc] initWithTitle:@"voltar" style:UIBarButtonItemStylePlain target:self action:@selector(voltar:)] autorelease];
-	self.navigationItem.leftBarButtonItem = barItem;
+	self.navigationItem.backBarButtonItem = barItem;
 	[self popularDados];
 }
 
