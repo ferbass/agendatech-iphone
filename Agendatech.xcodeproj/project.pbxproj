@@ -22,11 +22,11 @@
 		E1454700138B351C007D1AB3 /* EventosJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E14546FF138B351C007D1AB3 /* EventosJsonParser.m */; };
 		E1454704138B37E5007D1AB3 /* GruposJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1454703138B37E5007D1AB3 /* GruposJsonParser.m */; };
 		E1454707138B38F4007D1AB3 /* Grupo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1454706138B38F4007D1AB3 /* Grupo.m */; };
+		E1595125139F03E800CCF33A /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1595124139F03E800CCF33A /* libz.1.2.5.dylib */; };
 		E191FD6D138B25DE00E0C21B /* topo.png in Resources */ = {isa = PBXBuildFile; fileRef = E191FD6C138B25DE00E0C21B /* topo.png */; };
 		E1F5DDAC138A8EEA001C25B9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DDAB138A8EEA001C25B9 /* Reachability.m */; };
 		E1F5DDAE138A8F0C001C25B9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F5DDAD138A8F0C001C25B9 /* CFNetwork.framework */; };
 		E1F5DDB2138A8F21001C25B9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F5DDB1138A8F21001C25B9 /* MobileCoreServices.framework */; };
-		E1F5DDB6138A8F2D001C25B9 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F5DDB5138A8F2D001C25B9 /* libz.1.2.3.dylib */; };
 		E1F5DDB8138A8F35001C25B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F5DDB7138A8F35001C25B9 /* SystemConfiguration.framework */; };
 		E1F5DE20138A9206001C25B9 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DE09138A9206001C25B9 /* CDataScanner.m */; };
 		E1F5DE25138A9206001C25B9 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5DE15138A9206001C25B9 /* CDataScanner_Extensions.m */; };
@@ -71,12 +71,12 @@
 		E1454703138B37E5007D1AB3 /* GruposJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GruposJsonParser.m; sourceTree = "<group>"; };
 		E1454705138B38F4007D1AB3 /* Grupo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grupo.h; sourceTree = "<group>"; };
 		E1454706138B38F4007D1AB3 /* Grupo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grupo.m; sourceTree = "<group>"; };
+		E1595124139F03E800CCF33A /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		E191FD6C138B25DE00E0C21B /* topo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topo.png; sourceTree = "<group>"; };
 		E1F5DDAA138A8EEA001C25B9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		E1F5DDAB138A8EEA001C25B9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E1F5DDAD138A8F0C001C25B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E1F5DDB1138A8F21001C25B9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		E1F5DDB5138A8F2D001C25B9 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		E1F5DDB7138A8F35001C25B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E1F5DDCA138A8FB4001C25B9 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 		E1F5DE08138A9206001C25B9 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
@@ -121,12 +121,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1595125139F03E800CCF33A /* libz.1.2.5.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				E1F5DDAE138A8F0C001C25B9 /* CFNetwork.framework in Frameworks */,
 				E1F5DDB2138A8F21001C25B9 /* MobileCoreServices.framework in Frameworks */,
-				E1F5DDB6138A8F2D001C25B9 /* libz.1.2.3.dylib in Frameworks */,
 				E1F5DDB8138A8F35001C25B9 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +160,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E1595124139F03E800CCF33A /* libz.1.2.5.dylib */,
 				E1F5DDC9138A8FA0001C25B9 /* Util */,
 				E1F5DD7D138A8EAC001C25B9 /* Librarys */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -198,7 +199,6 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 				E1F5DDAD138A8F0C001C25B9 /* CFNetwork.framework */,
 				E1F5DDB1138A8F21001C25B9 /* MobileCoreServices.framework */,
-				E1F5DDB5138A8F2D001C25B9 /* libz.1.2.3.dylib */,
 				E1F5DDB7138A8F35001C25B9 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
@@ -441,8 +441,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Agendatech_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Agendatech-Info.plist";
 				PRODUCT_NAME = Agendatech;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k i386";
 			};
 			name = Debug;
 		};
@@ -453,9 +455,11 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Agendatech_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Agendatech-Info.plist";
 				PRODUCT_NAME = Agendatech;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k i386";
 			};
 			name = Release;
 		};
@@ -469,6 +473,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k i386";
 			};
 			name = Debug;
 		};
@@ -483,6 +488,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k i386";
 			};
 			name = Release;
 		};
